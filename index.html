@@ -1,50 +1,75 @@
-<html>
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
 <head>
-<style>
-body {
-    background: lightyellow;
-    font-family: Verdana;
-}  
-#content {
-    background: lightpink;
-    min-width: 300px;
-    max-width: 800px;
-    padding: 50px;
-    margin: auto;
-    margin-top: -50px;
-    line-height: 150%;
-}
-h1 {
-    letter-spacing: 2px;
-    font-size: 16px;
-    text-align: center;
-}
-h2 {
-    font-size: 14px;
-    text-align: center;
-}
-h3 {
-    font-size: 12px;
-}
-</style>
-</head>    
-<body>
-    <div id="content">
-        <h1>Ruby Keck</h1>
-        <h2>Freshman at Bob Jones University</h2>
-        
-         <p>I am a freshman at Bob Jones University studying Business Administration with a concentration in Finances.</p>
-         <p>
-            I attend Faith Baptist Church in Taylors SC. My favorite website is  
-            <a href="https://ballerinafarm.com/">here</a>, and you can email me  
-            <a href="mailto:rkeck182@students.bju.edu">here</a>.
-         </p> 
-         <p>
-            I enjoy listening to country music and being with my family. One day I want to either take a long vacation to Wyoming or to live there. 
-             Isn't it beautiful!? 
-             I love the mountains and I want to hike every bit of land that I can. 
-         </p>
-        <img src="https://livability.com/wp-content/uploads/2016/05/tetos_2-768x417.jpg.webp" />
-    </div>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Lab 10</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+</head>
+
+<body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="77">
+    <nav class="navbar navbar-expand-md fixed-top navbar-light" id="mainNav">
+        <div class="container"><a class="navbar-brand" href="#">Lab 10</a><button data-bs-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-bs-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item nav-link"><a class="nav-link active" href="#about">About</a></li>
+                    <li class="nav-item nav-link"></li>
+                    <li class="nav-item nav-link"></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead" style="background-image:url('assets/img/intro-bg.jpg');">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h1 class="brand-heading">Ruby Keck</h1>
+                        <p class="intro-text">A free, responsive, one-page about me blog.&nbsp;<br>Created with love.</p><a class="btn btn-link btn-circle" role="button" href="#about"><i class="fa fa-angle-double-down animated"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="text-center content-section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>About Me</h2>
+                    <p>I grew up in a Christian home and I now attend Bob Jones University where I am studying Business Administration with a concentration in Finances. I love financial planning and budgeting and hope to work for my Dad and his business in the future.</p>
+                    <p>Here are some of my favorites. My favorite color is blue and I love anything that sparkles. I love big puffy clouds on a cool summers day. I love coffee and my family.</p>
+                    <p>I hope in the future to travel out west or maybe live out there. I also want to buy rental property and be a property manager or a construction manager.&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="text-center bg-warning-subtle content-section" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-black">Look at my pictures!</h2>
+                    <p class="text-black">If you look here, you will see some of my favorite things and the places I want to visit one day.&nbsp;</p>
+                    <ul class="list-inline banner-social-buttons">
+                        <li class="list-inline-item">&nbsp;</li>
+                        <li class="list-inline-item">&nbsp;</li>
+                        <li class="list-inline-item">&nbsp;<button class="btn btn-primary btn-lg bg-white border-black btn-default" type="button"><i class="fa fa-github text-black fa-fw"></i><span class="text-black network-name">&nbsp;github</span></button><a class="btn btn-primary btn-lg bg-white border-black btn-default" role="button" href="#https://www.pinterest.com/rubybkeck/"><i class="fa fa-pinterest text-black fa-fw"></i><span class="text-black network-name">&nbsp;Pinterest</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="map-clean"></div>
+    <footer>
+        <div class="container text-center">
+            <p>Copyright ©&nbsp;Lab 10 2024</p>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/grayscale.js"></script>
 </body>
+
 </html>
